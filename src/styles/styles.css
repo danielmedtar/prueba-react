@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.boton {
+    display: block;
+    margin: 0 auto;
+}
+
+.iniciar {
+    border: none;
+    padding: 5px 20px;
+    cursor: pointer;
+}
